@@ -1,0 +1,85 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0.8rem;
+    /* position: fixed; */
+    width: 100vw;
+    box-shadow: 0px 1px 12px rgb(182, 182, 182);
+    color: rgb(100, 100, 100);
+}
+.header__logo {
+    padding: .5rem 1rem;
+    border-radius: 50px;
+    transition: all 0.4s;
+}
+.header__logo:hover {
+    background-color: rgb(244, 244, 244);
+    cursor: pointer;
+}
+.header__search {
+    display: flex;
+    align-items: center;
+}
+.header__input {
+    height: 2.5rem;
+    font-size: 1rem;
+    width: 25rem;
+    padding: 1rem;
+    border-radius: 50px;
+    margin-right: 1rem;
+    border: 1px solid rgb(214, 214, 214);
+    font-family: 'Robobto';
+    letter-spacing: 1.2px;
+}
+.header__input:focus {
+    outline: none;
+    color: rgb(100, 100, 100);
+    font-family: 'Robobto';
+}
+.header__filter {
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+    width: 10rem;
+}
+.header__user {
+    display: flex;
+    border-radius: 50px;
+    border: 2px solid rgb(244,244,244);
+}
+.header__login {
+    margin-right: 1rem;
+}
+.header__login, .header__signup {
+    padding: .5rem 1rem;
+    border-radius: 50px;
+    transition: all 0.4s;
+}
+.header__login:hover {
+    background-color: rgb(244, 244, 244);
+}
+.header__signup:hover {
+    background-color: rgb(244, 244, 244);
+}
+.header__login, .header__signup {
+    cursor: pointer;
+}
+.option {
+    z-index: 777;
+    position: absolute;
+    top: 50px;
+    transform: translateX(48px);
+    background-color: white;
+    margin-top: 1rem;
+    border-radius: 10px;
+    border: 1px solid rgb(187, 187, 187);
+}
+.option p {
+    padding: 0.6rem 1.5rem;
+    cursor: pointer;
+    border-bottom: 1px solid rgb(244, 244, 244);
+}
+.option  p:hover {
+    background-color: rgb(244, 244, 244);
+}

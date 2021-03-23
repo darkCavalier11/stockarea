@@ -1,0 +1,54 @@
+.inv {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    border: 1px solid #7555be;
+    border-radius: 10px;
+    box-shadow: 4px 4px 0px #7555be;
+    width: 30rem;
+    padding: 2rem;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(100, 100, 100);
+    font-family: 'Roboto';
+}
+form {
+    overflow-y: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form > span {
+    padding: 1.2rem;
+    margin-top: 1rem;
+}
+.inp {
+    font-size: 1.2em;
+    border: none;
+    width: 25rem;
+    padding: 0.7rem;
+    color: rgb(100, 100, 100);
+    outline: none;
+    border-bottom: 1px solid rgb(200, 200, 200);
+}
+.btn {
+    border: 2px solid #7555be;
+    background-color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    padding: 1rem;
+    color: #7555be;
+    font-weight: bolder;
+    width: 100%;
+    margin-top: 2rem;
+    border-radius: 50px;
+    box-shadow: 2px 2px 2px #7555be;
+    transition: all 0.5s;
+}
+.inv button:active {
+    outline: none;
+    box-shadow: none;
+}
